@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Porfolio</title>
+  <!-- Bootstrap -->
+  <link href="css/font awesome/css/all.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+  <!--JavaScript -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap-3.3.7.js"></script>
+  <!--JQuery-->
+  <script>
+      $(document).ready(function(){
+            $('.navi-xs').hide();
+            $('#blackscreen').hide();
+			$('.logo').click(function(){
+				$('.navi-xs').slideToggle()
+                $('#blackscreen').slideToggle()
+			})
+            $('#blackscreen').click(function(){
+				$('.navi-xs').slideUp();
+				$('#blackscreen').slideUp();
+            })
+		})
+      
+  </script>
+  </head>
+  <body>
+    <!--Banner-->
+      <div id="blackscreen" class="hidden-lg hidden-md hidden-sm"></div>
+      <div class="container-fluid banner bannerxs">
+          <div class="logo">
+              <a><img src="img/logo.svg" alt="1" class="img-responsive"></a><br>
+              <div class="visible-xs">
+                  <ul class="navi-xs">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">What I Do</a></li>
+                      <li><a href="">Resume</a></li>
+                      <li><a href="">Porfolio</a></li>
+                      <li><a href="">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="container" style="padding-left:0px; padding-right: 0px;">
+              <div class="row">
+                  <div class="col-lg-12
+                              col-md-12
+                              col-sm-12
+                              col-xs-12">
+                     <ul class="navi hidden-xs">
+                         <li><a href=""><b>Home</b></a></li>
+                         <li><a href=""><b>About</b></a></li>
+                         <li><a href=""><b>What I Do</b></a></li>
+                         <li><a href=""><b>Resume</b></a></li>
+                         <li><a href=""><b>Porfolio</b></a></li>
+                         <li><a href=""><b>Contact</b></a></li>
+                     </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="logomxh">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+          </div>
+      </div>
+      <!--Content-->
+      <div class="container-fluid bgabout" style="padding-left: 0px; padding-right: 0px;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1
+                              col-md-10 col-md-offset-1
+                              col-sm-12 col-sm-offset-0
+                              col-xs-12 col-xs-offset-0">
+                      <div class="row">
+                          <div class="col-lg-7
+                                      col-md-7
+                                      col-sm-6
+                                      col-xs-12 hinhanhabout"></div>
+                          <div class="col-lg-5
+                                      col-md-5
+                                      col-sm-6
+                                      col-xs-12 thongtinabout">
+                              <p style="font-size: 30px; margin-top: 15px;">I'm Nguyen Thien Tam </p>
+                              <p style="color:rgba(210,161,58,1.00);"><b>I'm a front-end developer &#38; UI/UX designer</b></p>
+                              <p>I started working as a designer, but i want code my design by my self. I research front-end development and i love it.</p>
+                              <ul class="joblist">
+                                  <li><i class="fas fa-fire"></i>&nbsp;&nbsp;<b>Multimedia Designer</b>
+                                      <br>
+                                     	<div style="padding-left: 18px;">I finished sixty percent learning process Advance Diploma In Multimedia at FPT Arena</div>
+                                  </li>
+                                  <li><i class="fas fa-fire"></i>&nbsp;&nbsp;<b>Front-end Developer &#38; UI/UX Designer </b>
+                                      <br>
+                                      
+									   <div style="padding-left: 18px;">I 'm a fresher. But this job is a target of my life</div>
+								  </li>
+                              </ul>
+                              <a href="" class="hirebtn">Hire Me</a>
+                          </div>
+                      </div>
+                      <div class="row" style="margin-top:40px;">
+                          <div class="col-lg-4
+                                      col-md-4
+                                      col-sm-4
+                                      col-xs-4 toprate">
+                              <h2>EXPERIENCE</h2>
+                              <b>Under 1 year</b>
+                          </div>
+                          <div class="col-lg-4
+                                      col-md-4
+                                      col-sm-4
+                                      col-xs-4 toprate">
+                              <h2>TARGET</h2>
+                              <b>Professional Front end Dev</b>
+                          </div>
+                          <div class="col-lg-4
+                                      col-md-4
+                                      col-sm-4
+                                      col-xs-4 toprate">
+                              <h2>+100 Project</h2>
+                              <b>To train my skills</b>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid whatidobg" style="padding-left: 0px; padding-right: 0px;">
+          <div class="container">
+              <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
+                  <div class="col-lg-4
+                            col-md-4
+                            col-sm-4
+                            col-xs-12" style="display: block;">
+                      <div class="row">
+                          <div class="col-lg-12
+                                      col-md-12
+                                      col-sm-12" style="text-align: center; padding-top:30px;">
+                              <p style="font-size: 30px;">WHAT I DO</p>
+                              <p>UI/UX Design App &#124; Code UI Web App &#124; Graphics Design</p>
+                              <p style="width: 120px; margin-left: auto; margin-right: auto; margin-top: 40px;"><a href="" class="hirebtn">Let 's Talk</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4
+                            col-md-4
+                            col-sm-4
+                            col-xs-12" style="display: block;">
+                      <div class="row">
+                          <div class="col-lg-12
+                                      col-md-12
+                                      col-sm-12" style="text-align: center;">
+                              <p style="font-size: 50px;"><i class="fas fa-pencil-ruler"></i></p>
+                              <p style="font-size: 20px;">DESIGN</p>
+                              <p class="adobelogo">
+								  <img src="img/illustrator (1).png" alt="ailogo">&nbsp;&nbsp;&nbsp;
+								  <img src="img/photoshop (1).png" alt="ptslogo">&nbsp;&nbsp;&nbsp;
+								  <img src="img/aea3a05c-2bc1-4112-a066-a003dc78b95c-1523996663450.png" alt="ptslogo" style="width: 32px; height: 32px;">&nbsp;&nbsp;&nbsp;
+								  <br>
+								  <img src="img/premiere.png" alt="ptslogo">&nbsp;&nbsp;&nbsp;
+								  <img src="img/animate.png" alt="ptslogo">&nbsp;&nbsp;&nbsp;
+								  <img src="img/after-effects.png" alt="ptslogo">&nbsp;&nbsp;&nbsp;
+							  </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4
+                            col-md-4
+                            col-sm-4
+                            col-xs-12" style="display: block;">
+                      <div class="row">
+                          <div class="col-lg-12
+                                      col-md-12
+                                      col-sm-12" style="text-align: center;">
+                              <p style="font-size: 50px;"><i class="fas fa-code"></i></p>
+                              <p style="font-size: 20px;">DEVELOPMENT</p>
+                              <p class="adobelogo">
+								 <img src="img/html-5.png" alt="ailogo">&nbsp;&nbsp;&nbsp;
+								 <img src="img/css-3.png" alt="ptslogo">&nbsp;&nbsp;&nbsp;
+								 <img src="img/javascript.png" alt="ailogo">&nbsp;&nbsp;&nbsp;
+								 <br>
+								 <img src="img/react.png" alt="ailogo">&nbsp;&nbsp;&nbsp;
+								 <i class="fas fa-code-branch" style="font-size: 32px"></i>&nbsp;&nbsp;&nbsp;
+							  </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid resumebg" style="padding-left: 0px; padding-right: 0px;">
+          <div class="container">
+             <div class="row">
+              <div class="col-lg-12
+                          col-md-12
+                          col-sm-12
+                          col-xs-12">
+                  <p class="tags">MY RESUME</p>
+                  <p style="text-align:center; color:rgba(204,158,81,1.00);">"Find three hobbies you love: one to make you money,<br>one to keep you in shape, and one to be creative"</p>
+              </div>
+             </div>
+             <div class="row" style="margin-top: 30px;">
+                 <div class="col-lg-10 col-lg-offset-1
+                             col-md-10 col-md-offset-1
+                             col-sm-12 col-sm-offset-0
+                             col-xs-12 col-xs-offset-0">
+					 <div class="row">
+					 	<div class="col-lg-2 col-lg-offset-1
+									col-md-2 col-md-offset-1
+									col-sm-2 col-sm-offset-1
+									col-xs-4 col-xs-offset-0 "><img src="img/pattlet-solid.png" alt="1" title="Earn Money" class="img-responsive"></div>
+						<div class="col-lg-2 col-lg-offset-2
+									col-md-2 col-md-offset-2
+									col-sm-2 col-sm-offset-2
+									col-xs-4 col-xs-offset-0 "><img src="img/computer-solid.png" alt="1" title="Improve myself" class="img-responsive"></div>
+						<div class="col-lg-2 col-lg-offset-2
+									col-md-2 col-md-offset-2
+									col-sm-2 col-sm-offset-2
+									col-xs-4 col-xs-offset-0 "><img src="img/coffee-solid.png" alt="1" title="Energy creative" class="img-responsive"></div>
+					 </div>
+                     
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2
+                             col-md-8 col-md-offset-2
+                             col-sm-12 col-sm-offset-0
+                             col-xs-12 col-xs-offset-0 experience">
+                     <div class="row hidden-xs" style="margin-top: 40px;">
+                         <div class="col-lg-6
+                                     col-md-6
+                                     col-sm-6" style="text-align:right; padding-right: 25px;">
+                             <p style="font-size: 25px;">EXPERIENCE</p>
+                             <p>Tôi bắt đầu tìm hiểu và tham gia khóa học về design đa phương tiện vào tháng 10/2018.
+							 Trước đây tôi tốt nghiệp quản trị kinh doanh nhưng nhận ra mình có hứng thú với Design khi tìm hiểu về Photoshop.</p> 
+                             <p>Khi học đến UI Design, tôi trở nên yêu thích thiết kế web vì sự đơn giản nhưng rất tinh tế của web hiện đại. Và tôi biết đến những dòng code HTML, CSS đầu tiên.</p>
+							 <p>Càng đi sâu vào tìm hiểu tôi càng thấy mình rất phù hợp với công việc này. Cần sự sáng tạo tinh tế, không cần quá hoa mỹ như các nghệ sĩ, nhưng phải có tính logic nhất định. Đó chính là con người tôi.</p>
+                             <p style="float:right; margin-top: 30px;"><a href="" class="hirebtn">Hire Me</a></p>
+                         </div>
+                         <div class="col-lg-6
+                                     col-md-6
+                                     col-sm-6" style="text-align: left; padding-left: 25px;">
+                             <p style="font-size: 14px;"><b>MULTIMEDIA DESIGNER</b></p>
+                             <b style="color:rgba(239,184,93,1.00);">FPT ARENA</b><br>
+                             <span>10/2018 - now</span>
+                             <p style="margin-top: 8px;">Tôi quyết định theo học để lấy bằng.Hiện nay, tôi đã sử dụng thành thạo các công cụ cần thiết để thiết kế giao diện web.</p>
+                             <p style="font-size: 14px; margin-top:25px;"><b>FRONT-END DEVELOPER</b></p>
+                             <b style="color:rgba(239,184,93,1.00);">CODER X, NORDIC CODER</b><br>
+                             <span>8/2019 - now</span>
+                             <p style="margin-top: 8px;">Tôi tìm hiểu về Javascript và tham gia khóa học Reactjs. Nhưng tôi chưa có cơ hội tiếp xúc dự án thực tế về nó. Đây là mục tiêu nghề nghiệp của tôi.</p>
+                             <p style="font-size: 14px; margin-top:25px;"><b>UI/UX DESIGNER</b></p>
+                             <b style="color:rgba(239,184,93,1.00);">YOUTUBE</b><br>
+                             <span>8/2019 - now</span>
+                             <p style="margin-top: 8px;">Dĩ nhiên làm về Front-end phải nắm vững UI/UX của App. Tìm hiểu về UI/UX giúp tôi hoàn thiện bản thân.</p>
+                         </div>
+                     </div>
+                     <div class="visible-xs" style="margin-top: 40px;">
+                         <div class="col-xs-12">
+                             <p style="font-size: 25px;">EXPERIENCE</p>
+                             my resume content my resume contentmy resume contentmy resume contentmy resume content my resume contentmy resume contentmy resume contentmy resume content my resume contentmy resume contentmy resume contentmy<br>
+                             my resume content my resume contentmy resume contentmy resume contentmy resume content my resume contentmy resume contentmy resume contentmy resume content my resume contentmy resume contentmy resume contentmy<br>
+                             <p style="font-size: 14px; margin-top: 30px;"><b>WEB DESIGNER &amp; FRONT-END</b></p>
+                             <span>Vietopia Inc</span><br>
+                             <span>Tháng 6 2018</span>
+                             <p style="margin-top: 8px;">my resume content my resume contentmy resume my resume content my resume contentmy resume</p>
+                             <p style="font-size: 14px; margin-top:25px;"><b>WEB DESIGNER &amp; FRONT-END</b></p>
+                             <span>Vietopia Inc</span><br>
+                             <span>Tháng 6 2018</span>
+                             <p style="margin-top: 8px;">my resume content my resume contentmy resume my resume content my resume contentmy resume</p>
+                             <p style="font-size: 14px; margin-top:25px;"><b>WEB DESIGNER &amp; FRONT-END</b></p>
+                             <span>Vietopia Inc</span><br>
+                             <span>Tháng 6 2018</span>
+                             <p style="margin-top: 8px;">my resume content my resume contentmy resume my resume content my resume contentmy resume</p>
+                             <p style="margin-top: 30px;"><a href="" class="hirebtn">Hire Me</a></p>
+                         </div>
+                     </div>
+                 </div> 
+             </div>
+          </div>
+      </div>
+      <div class="container-fluid resumebg" style="padding-left: 0px; padding-right: 0px;">
+          <div class="container">
+             <div class="row">
+              <div class="col-lg-12
+                          col-md-12
+                          col-sm-12
+                          col-xs-12">
+                  <p class="tags">MY WORK</p>
+                  <p style="text-align:center;">my work content my work contentmy work contentmy work content<br>my work content my work contentmy</p>
+               </div>
+              </div>
+             <div class="row">
+                 <div class="col-lg-12
+                             col-md-12
+                             col-sm-12
+                             col-xs-12 productlink">
+                     <a href="" style="color: black;">ALL</a> / <a href="">DESIGN</a> / <a href="">DEVELOPMENT</a> / <a href="">OTHERS</a>
+                 </div> 
+             </div>
+             <div class="row" style="margin-top: 30px;">
+               <div class="col-lg-10 col-lg-offset-1
+                           col-md-10 col-md-offset-1
+                           col-sm-12 col-sm-offset-0
+                           col-xs-12 col-xs-offset-0">
+                   <div class="row">
+                        <div class="col-lg-4
+                             col-md-4
+                             col-sm-4
+                             col-xs-6 productbox">
+                 </div>
+                        <div class="col-lg-4
+                             col-md-4
+                             col-sm-4
+                             col-xs-6 productbox">
+                 </div>
+                        <div class="col-lg-4
+                             col-md-4
+                             col-sm-4
+                             col-xs-6 productbox">
+                 </div>
+                        <div class="col-lg-4
+                             col-md-4
+                             col-sm-4
+                             col-xs-6 productbox">
+                 </div>
+                        <div class="col-lg-4
+                             col-md-4
+                             col-sm-4
+                             col-xs-6 productbox">
+                 </div>
+                        <div class="col-lg-4
+                             col-md-4
+                             col-sm-4
+                             col-xs-6 productbox">
+                 </div> 
+                   </div>
+               </div>  
+             </div>
+          </div>
+      </div>
+      <div class="container-fluid sloganbanner"></div>
+      <div class="container-fluid contactmebanner">
+          <div class="container">
+              <div class="row" style="margin-top: 80px;">
+                  <div class="col-lg-10 col-lg-offset-1
+                              col-md-10 col-md-offset-1
+                              col-sm-12 col-sm-offset-0
+                              col-xs-12 col-xs-offset-0">
+                      <div class="row">
+                         <div class="col-lg-12
+                                     col-md-12
+                                     col-sm-12
+                                     col-xs-12" style="margin-bottom: 40px;">
+                             <p style="font-size: 35px;">CONTACT ME</p>
+                             <p style="width: 238px;">con tact me con tent con tact me con tentcon tact me con tent me con tentcon tact me con tent </p>
+                         </div>
+                         <div class="col-lg-8
+                                     col-md-8
+                                     col-sm-8
+                                     col-xs-12">
+                             <div class="row">
+                                 <div class="col-lg-6
+                                             col-md-6
+                                             col-sm-6
+                                             col-xs-12">
+                                     <input type="text" placeholder="Name" class="input">
+                                 </div>
+                                 <div class="col-lg-6
+                                             col-md-6
+                                             col-sm-6
+                                             col-xs-12">
+                                     <input type="text" placeholder="Email" class="input">
+                                 </div>
+                                 <div class="col-lg-6
+                                             col-md-6
+                                             col-sm-6
+                                             col-xs-12">
+                                     <input type="text" placeholder="Phone" class="input">
+                                 </div>
+                                 <div class="col-lg-6
+                                             col-md-6
+                                             col-sm-6
+                                             col-xs-12">
+                                     <input type="text" placeholder="Subject" class="input">
+                                 </div>
+                             </div>
+                             <div class="row">
+                                 <div class="col-lg-12
+                                             col-md-12
+                                             col-sm-12
+                                             col-xs-12">
+                                     <textarea placeholder="Your comment" class="comment"></textarea>
+                                 </div>
+                             </div>
+                             <div class="row" style="margin-top: 20px;">
+                                 <div class="col-lg-12
+                                             col-md-12
+                                             col-sm-12
+                                             col-xs-12">
+                                     <a href="" class="hirebtn">Submit</a>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-lg-4
+                                     col-md-4
+                                     col-sm-4
+                                     col-xs-12">
+                              <div class="row" style="margin-top: 20px;">
+                                 <div class="col-lg-12
+                                             col-md-12
+                                             col-sm-12
+                                             col-xs-12">
+                                      <a href=""><i class="fas fa-envelope icons"></i></a><span class="infoicons">nguyenthientam.2206@gmail.com</span><br>
+                                      <a href=""><i class="fas fa-phone icons"></i></a><span class="infoicons">0932 000 848</span><br>
+                                      <a href=""><i class="fas fa-home icons"></i></a><span class="infoicons">6 Nguyen Bieu, Distr 5, HCM city</span>
+                                  </div>
+                              </div>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid footer">
+          <div class="container" style="margin-top: 100px;">
+              <div class="row">
+                  <div class="col-lg-12
+                              col-md-12
+                              col-sm-12
+                              col-xs-12 contentfooter">
+                      <p style="font-size: 25px;">TAM NGUYEN LOGO</p>
+                  </div>
+                  <div class="col-lg-10 col-lg-offset-1
+                              col-md-10 col-md-offset-1
+                              col-sm-12 col-sm-offset-0
+                              col-xs-12 col-xs-offset-0">
+                      <p style="text-align: center;">TAM NGUYEN LOGO TAM NGUYENN LOGO TAM NGUYEN LOGO TAM NGUYEN LOGO TAM NGUYEN LOGO TAM NGUYEN LOGO TAM NGUYE LOGOTAM NGUYEN LOGOTAM NGUYEN LOGOTAM NGUYEN LOGOTAM NGUYEN LOGOTAM NGUYEN LOGO</p>
+                      <p style="text-align: center;" class="logomxhfooter"><a href=""><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;  <a href=""><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;  <a href=""><i class="fab fa-behance-square"></i></a></p>
+                      <hr style="margin-top: 100px; border-top:solid 1px black;">
+                      <p style="text-align: center;">2019Copyright Design by TamNguyen</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

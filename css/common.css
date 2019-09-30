@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* CSS Porfolio */
+
+/*banner*/
+
+.banner {
+  background-image: url("../img/bannerprofolio.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.navi li {
+  display: block;
+}
+
+.navi li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.navi li a:hover{
+	color:#EFB85D;
+}
+
+.logomxh a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.logomxh a:hover{
+	color:#EFB85D;
+}
+
+.logomxh{
+    width: 300px; 
+    text-align: right; 
+    margin-top: 40px;
+}
+
+.logo{
+    width: 300px; 
+    margin-top: 30px;
+	text-align: center;
+}
+
+.logo a img{
+	width: 50px;
+}
+
+.navi-xs{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    z-index: 1002;
+}
+
+.navi-xs li{
+    display: block;
+}
+.navi-xs li a{
+    width: 90px;
+    display: block;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+	text-align: left;
+}
+
+#blackscreen{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0);
+	position: fixed;
+	z-index: 1001;
+}
+
+/*bgabout*/
+
+.bgabout{
+	background-image: url("../img/aboutbg.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+    padding-top: 80px;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+.hinhanhabout{
+	background-image: url("../img/iamTam.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	height: 359px;
+}
+
+.joblist{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.joblist li{
+    display: block;
+    margin-top: 20px;
+}
+
+.joblist li i, .joblist li b{
+	color:rgba(210,161,58,1.00);
+}
+
+.adobelogo{
+	padding-left: 20px;
+}
+
+.adobelogo img{
+	margin-bottom: 10px;
+}
+
+
+/*HireBtn*/
+
+.hirebtn{
+    text-decoration: none;
+    display: block;
+    color: black;
+    border: solid 2px grey;
+    width: 120px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.hirebtn:hover{
+    text-decoration: none;
+    border: solid 2px black;
+    color: black;
+}
+
+.toprate{
+    text-align: center;
+}
+
+.toprate h2{
+	color:#D2A13A;
+}
+
+
+/*Whatidobg*/
+
+.whatidobg{
+    margin-top: 80px;
+    background-color:rgba(237,237,237,1.00);
+}
+
+/*Resumebg*/
+
+.resumebg{
+    margin-top: 80px;
+}
+
+.tags{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*My workbg*/
+
+.productlink{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.productlink a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 7px;
+    padding-left: 7px;
+    color: grey;
+}
+
+.productlink a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.productbox{
+    height: 300px;
+    background-color:rgba(255,200,141,1.00);
+    border: solid 1px rgba(0,72,55,1.00);
+    
+}
+
+/*Slogan banner*/
+
+.sloganbanner{
+    height: 400px;
+    background-color: rgba(235,123,123,1.00);
+    margin-top: 60px;
+}
+
+/*Contact me*/
+
+.contactmebanner{
+    background-color:rgba(224,224,224,1.00);
+    height: 500px;
+}
+
+.input{
+    background-color: white;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.comment{
+    padding-left: 5px;
+    padding-top: 8px;
+    background-color: white;
+    width: 100%;
+    border: none;
+}
+
+.infoicons{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.icons{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+/*Content footer*/
+
+.contentfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Footer*/
+
+.logomxhfooter a{
+    color: grey;
+    font-size: 30px;
+}
+
+.logomxhfooter a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.logomxhfooter a{
+    text-decoration: none;
+}
+
+
+
+
+
+/*Only Large*/
+@media (min-width: 1200px){
+    
+}
+
+
+/* Only Medium */
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.hinhanhabout{
+	height: 419px;
+	}
+	
+    .logomxh,.logo{
+        width: 250px;
+    }
+    
+    .infoicons{
+        font-size: 13px;
+    }
+    
+    .icons{
+        font-size: 15px;
+    }
+}
+
+/* Only Tablet */
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	.hinhanhabout{
+	height: 379px;
+	}
+	
+  .logomxh,.logo{
+        width: 200px;
+    }
+    
+     .infoicons{
+        font-size: 12px;
+    }
+    
+    .icons{
+        font-size: 14px;
+    }
+}
+
+/* Only Mobile */
+
+@media (max-width: 767px){
+	
+	.toprate h2{
+	font-size: 18px;
+	}
+	
+	.bannerxs{
+		 height: 450px !important;
+	}
+	
+    .comment{
+        height: 150px;
+    }
+    
+    .icons{
+        font-size: 14px;
+    }
+    
+    .contactmebanner{
+    height: 800px;
+}
+}
+
+
+@media(max-width: 400px){
+	.toprate h2{
+		font-size: 13px;
+	}
+	
+	.toprate{
+		font-size: 12px;
+	}
+
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
