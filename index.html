@@ -12,6 +12,7 @@
   <!--JavaScript -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap-3.3.7.js"></script>
+  <script type="text/javascript" src="node_modules/bootpag/lib/jquery.bootpag.js"></script>
   <!--JQuery-->
   <script>
       $(document).ready(function(){
@@ -25,7 +26,51 @@
 				$('.navi-xs').slideUp();
 				$('#blackscreen').slideUp();
             })
-		})
+
+            $('#allbtn').click(function(){
+                $('.divchange').load('allbtn.txt')
+            })
+
+            $('#designbtn').click(function(){
+                $('.divchange').load('designbtn.txt')
+            })
+
+            $('#developmentbtn').click(function(){
+                $('.divchange').load('developmentbtn.txt')
+            })
+
+            $('#othersbtn').click(function(){
+                $('.divchange').load('othersbtn.txt')
+            })
+
+            $('#allbtn').on('click',function(){
+                $('#designbtn').removeClass('opening')
+                $('#developmentbtn').removeClass('opening')
+                $('#othersbtn').removeClass('opening');
+                $(this).addClass('opening');
+            })
+
+            $('#designbtn').on('click',function(){
+                $('#allbtn').removeClass('opening')
+                $('#developmentbtn').removeClass('opening')
+                $('#othersbtn').removeClass('opening');
+                $(this).addClass('opening');
+            })
+
+            $('#developmentbtn').on('click',function(){
+                $('#designbtn').removeClass('opening')
+                $('#allbtn').removeClass('opening')
+                $('#othersbtn').removeClass('opening');
+                $(this).addClass('opening');
+            })
+
+            $('#othersbtn').on('click',function(){
+                $('#designbtn').removeClass('opening')
+                $('#developmentbtn').removeClass('opening')
+                $('#allbtn').removeClass('opening');
+                $(this).addClass('opening');
+            })
+        })
       
   </script>
   </head>
@@ -194,7 +239,7 @@
           </div>
       </div>
       <div class="container-fluid resumebg" style="padding-left: 0px; padding-right: 0px;">
-          <div class="container">
+          <div class="container" style="padding-top:80px;">
              <div class="row">
               <div class="col-lg-12
                           col-md-12
@@ -283,8 +328,8 @@
              </div>
           </div>
       </div>
-      <div class="container-fluid resumebg" style="padding-left: 0px; padding-right: 0px;">
-          <div class="container">
+      <div class="container-fluid bgmywork" style="padding-left: 0px; padding-right: 0px;">
+          <div class="container" style="padding-top: 80px;">
              <div class="row">
               <div class="col-lg-12
                           col-md-12
@@ -299,47 +344,68 @@
                              col-md-12
                              col-sm-12
                              col-xs-12 productlink">
-                     <a href="" style="color: black;">ALL</a> / <a href="">DESIGN</a> / <a href="">DEVELOPMENT</a> / <a href="">OTHERS</a>
+                             <ul class="breadcrumb"> <!--có đổi color bstr-->
+                                    <li><a id="allbtn" class="opening">ALL</a></li>
+                                    <li><a id="designbtn">DESIGN</a></li>
+                                    <li><a id="developmentbtn">DEVELOPMENT</a></li>
+                                    <li><a id="othersbtn">OTHERS</a></li> 
+                            </ul>
                  </div> 
              </div>
              <div class="row" style="margin-top: 30px;">
                <div class="col-lg-10 col-lg-offset-1
                            col-md-10 col-md-offset-1
                            col-sm-12 col-sm-offset-0
-                           col-xs-12 col-xs-offset-0">
-                   <div class="row">
-                        <div class="col-lg-4
-                             col-md-4
-                             col-sm-4
-                             col-xs-6 productbox">
-                 </div>
-                        <div class="col-lg-4
-                             col-md-4
-                             col-sm-4
-                             col-xs-6 productbox">
-                 </div>
-                        <div class="col-lg-4
-                             col-md-4
-                             col-sm-4
-                             col-xs-6 productbox">
-                 </div>
-                        <div class="col-lg-4
-                             col-md-4
-                             col-sm-4
-                             col-xs-6 productbox">
-                 </div>
-                        <div class="col-lg-4
-                             col-md-4
-                             col-sm-4
-                             col-xs-6 productbox">
-                 </div>
-                        <div class="col-lg-4
-                             col-md-4
-                             col-sm-4
-                             col-xs-6 productbox">
-                 </div> 
-                   </div>
-               </div>  
+                           col-xs-12 col-xs-offset-0 divchange">
+                           <div id="content">
+                                <div class="row">
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div> 
+                                </div>
+                           </div>
+                           <div id="page-selection" style="text-align: center;">
+                           </div>
+                           <script>
+                               // init bootpag
+                               $('#page-selection').bootpag({
+                                   total: 6,
+                                   page: 1,
+                                   maxVisible: 3
+
+                               }).on("page", function(event, num){
+                                    $("#content").load('all'+num+'.txt');
+                                    // some ajax content loading...
+                               });
+                           </script>
+               </div>
              </div>
           </div>
       </div>

@@ -1,0 +1,48 @@
+<div id="content">
+                                <div class="row">
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div>
+                                        <div class="col-lg-4
+                                             col-md-4
+                                             col-sm-4
+                                             col-xs-6 productbox">ALL
+                                        </div> 
+                                </div>
+                           </div>
+                           <div id="page-selection" style="text-align:center;">
+                           </div>
+                           <script>
+                               // init bootpag
+                               $('#page-selection').bootpag({
+                                   total: 6,
+                                   page: 1,
+                                   maxVisible: 3
+
+                               }).on("page", function(event, num){
+                                    $("#content").load('all'+num+'.txt');
+                                    // some ajax content loading...
+                               });
+                           </script>
