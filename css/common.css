@@ -104,6 +104,18 @@
 	height: auto;
 }
 
+.resumebg{
+	background-image: url("../img/baloon.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+    padding-top: 80px;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+
+
 .hinhanhabout{
 	background-image: url("../img/iamTam.jpg");
 	background-repeat: none;
