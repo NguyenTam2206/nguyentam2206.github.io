@@ -76,10 +76,12 @@
   </script>
   </head>
   <body>
+        <button id="myBtn2" title="change language"><a href="">En/Vn</a></button>
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         <script>
                 //Get the button
                 var mybutton = document.getElementById("myBtn");
+                var mybutton2 = document.getElementById("myBtn2")
                 
                 // When the user scrolls down 20px from the top of the document, show the button
                 window.onscroll = function() {scrollFunction()};
@@ -87,8 +89,10 @@
                 function scrollFunction() {
                   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                     mybutton.style.display = "block";
+                    mybutton2.style.display = "block";
                   } else {
                     mybutton.style.display = "none";
+                    mybutton2.style.display = "none";
                   }
                 }
                 
@@ -435,7 +439,7 @@
           </div>
       </div>
       <div class="container-fluid sloganbanner" style="padding-left: 0px; padding-right: 0px;"></div>
-      <div class="container-fluid contactmebanner" id="bgcontact">
+      <div class="container-fluid contactmebanner" id="bgcontact"  style="padding-left: 0px; padding-right: 0px;">
           <div class="container">
               <div class="row" style="margin-top: 80px;">
                   <div class="col-lg-10 col-lg-offset-1
@@ -516,7 +520,7 @@
               </div>
           </div>
       </div>
-      <div class="container-fluid footer">
+      <div class="container-fluid footer" style="padding-left: 0px; padding-right: 0px;">
           <div class="container" style="margin-top: 50px;">
               <div class="row">
                   <div class="col-lg-12
