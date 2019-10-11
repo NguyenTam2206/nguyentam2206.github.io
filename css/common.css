@@ -162,7 +162,7 @@ html{
 	background-repeat: none;
 	background-position: center;
 	background-size: cover;
-    padding-top: 80px;
+    padding-top: 40px;
 	padding-bottom: 20px;
 	height: auto;
 }
@@ -188,6 +188,17 @@ html{
 
 }
 
+.sloganbanneren{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url("../img/sloganbgen.jpg");
+	background-repeat: none;
+	background-position: center;
+    background-size: cover;
+    height: 400px;
+
+}
+
 .contactmebanner{
     background-image: url("../img/bgcontact.png");
 	background-repeat: none;
@@ -204,6 +215,14 @@ html{
 	background-position: center;
 	background-size: cover;
 	height: 359px;
+}
+
+.hinhanhaboutvn{
+	background-image: url("../img/iamTam.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	height: 399px;
 }
 
 .joblist{
@@ -268,6 +287,19 @@ html{
 }
 
 /*Resumebg*/
+
+.btnhoptacpdf ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.btnhoptacpdf ul li{
+    display: block;
+    float: right;
+    margin-left: 10px;
+}
+
 .tags{
     font-size: 30px;
     text-align: center;
