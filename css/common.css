@@ -1,6 +1,33 @@
 @charset "UTF-8";
 /* CSS Porfolio */
 
+html{
+    scroll-behavior: smooth;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #EFB85D;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
 /*banner*/
 
 .banner {
@@ -105,13 +132,34 @@
 }
 
 .resumebg{
-	background-image: url("../img/baloon.jpg");
+	background-image: url("../img/bgresume.jpg");
 	background-repeat: none;
 	background-position: center;
 	background-size: cover;
     padding-top: 80px;
 	padding-bottom: 20px;
 	height: auto;
+}
+
+.bgmywork{
+	background-image: url("../img/workbg.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+    padding-top: 80px;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+.sloganbanner{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url("../img/sloganbg.jpg");
+	background-repeat: none;
+	background-position: center;
+    background-size: cover;
+    height: 400px;
+
 }
 
 
@@ -238,14 +286,6 @@
     border-color: #D2A13A !important;
   }
 
-/*Slogan banner*/
-
-.sloganbanner{
-    height: 400px;
-    background-color: rgba(235,123,123,1.00);
-    margin-top: 60px;
-}
-
 /*Contact me*/
 
 .contactmebanner{
@@ -281,6 +321,10 @@
     color: black;
 }
 
+.icons:hover{
+    color:#EFB85D;
+}
+
 /*Content footer*/
 
 .contentfooter{
@@ -298,11 +342,21 @@
 
 .logomxhfooter a:hover{
     text-decoration: none;
-    color: black;
+    color:#EFB85D;
 }
 
 .logomxhfooter a{
     text-decoration: none;
+}
+
+.footernavi{
+    text-decoration: none;
+    color: black;
+}
+
+.footernavi:hover{
+    text-decoration: none;
+    color:#EFB85D;
 }
 
 
