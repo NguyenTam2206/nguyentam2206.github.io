@@ -14,6 +14,7 @@
   <script src="js/jquery-1.11.3.min.js"></script> <!--Chép bootpag vào đây vì global k load node_modules? Đang tìm hiểu-->
   <script src="js/bootstrap-3.3.7.js"></script>
   <!--JQuery-->
+  <link href="lightgallery/dist/css/lightgallery.css" rel="stylesheet">
   <script>
       $(document).ready(function(){
             $('.navi-xs').hide();
@@ -401,7 +402,20 @@
                                         <div class="col-lg-4
                                              col-md-4
                                              col-sm-4
-                                             col-xs-6 productbox">ALL
+                                             col-xs-6 productbox" id="lightgallery">
+                                             <a href="img/iamTam.jpg">
+                                                 <img src="img/iamTam.jpg" class="img-responsive"/>
+                                             </a>
+                                             <a href="img/bannerprofolio.jpg">
+                                                <img src="img/bannerprofolio.jpg" class="img-responsive" style="display:none;"/>
+                                            </a>
+                                            <a href="img/bgresume.jpg">
+                                                <img src="img/bgresume.jpg" class="img-responsive" style="display:none;"/>
+                                            </a>
+                                            <a href="img/workbg.jpg">
+                                                <img src="img/workbg.jpg" class="img-responsive" style="display:none;"/>
+                                            </a>
+                                             
                                         </div>
                                         <div class="col-lg-4
                                              col-md-4
@@ -530,6 +544,26 @@
               </div>
           </div>
       </div>
+      <!--LightBox-->
+      <!-- jQuery version must be >= 1.8.0; -->
+    <script src="lightgallery/src/js/lightgallery.js"></script>
+
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="lightgallery/modules/lg-thumbnail.min.js"></script>
+    <script src="lightgallery/modules/lg-fullscreen.min.js"></script>
+    <script src="lightgallery/modules/lg-zoom.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery(); 
+        });
+        $('#lightgallery').lightGallery({
+        zoom: true,
+        cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)'
+        }); 
+    </script>
       <div class="container-fluid footer" style="padding-left: 0px; padding-right: 0px;">
           <div class="container" style="margin-top: 50px;">
               <div class="row">

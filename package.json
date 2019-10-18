@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/NguyenTam2206/nguyentam2206.github.io#readme",
   "dependencies": {
-    "bootpag": "^1.0.7"
+    "bootpag": "^1.0.7",
+    "lightgallery": "^1.6.12"
   }
 }
