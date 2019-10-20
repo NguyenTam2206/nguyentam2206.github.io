@@ -2,31 +2,32 @@
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox">ALL3
+                             col-xs-6 productbox">
+                             <img src="product/new.png" class="img-responsive"/>
                         </div>
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox">ALL3
+                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
                         </div>
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox">ALL3
+                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
                         </div>
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox">ALL3
+                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
                         </div>
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox">ALL3
+                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
                         </div>
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox">ALL3
+                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
                         </div> 
                    </div>
