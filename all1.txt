@@ -1,4 +1,4 @@
-<div class="row">
+
                         <div class="row">
                                         <div class="col-lg-4
                                              col-md-4
@@ -114,8 +114,7 @@
                                                 <img src="product/bg1.png" class="img-responsive"/>
                                             </a>
                                         </div> 
-                                </div>
-                   </div>
+                        </div>
                          <script src="lightgallery/modules/lg-thumbnail.min.js"></script>
                            <script src="lightgallery/modules/lg-fullscreen.min.js"></script>
                            <script src="lightgallery/modules/lg-zoom.min.js"></script>

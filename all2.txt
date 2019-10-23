@@ -10,7 +10,10 @@
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
+                             col-xs-6 productbox lightgallery">
+                             <a href="https://youtu.be/R4az3MQK3mE">
+                                   <img src="product/stopmotion.gif" class="img-responsive"/>
+                             </a>
                         </div>
                         <div class="col-lg-4
                              col-md-4
@@ -33,3 +36,17 @@
                              col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
                         </div> 
                    </div>
+                   <script src="lightgallery/modules/lg-thumbnail.min.js"></script>
+                           <script src="lightgallery/modules/lg-fullscreen.min.js"></script>
+                           <script src="lightgallery/modules/lg-zoom.min.js"></script>
+                           <script src="lightgallery/modules/lg-video.min.js"></script>
+                           <script type="text/javascript">
+                              $(document).ready(function() {
+                              $(".lightgallery").lightGallery(); 
+                              });
+                              $('.lightgallery').lightGallery({
+                              zoom: true,
+                              cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)',
+                              showThumbByDefault: false,
+                              }); 
+                    </script>
