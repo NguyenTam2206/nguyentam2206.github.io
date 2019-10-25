@@ -18,7 +18,10 @@
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
+                             col-xs-6 productbox lightgallery">
+                             <a href="https://youtu.be/bwn_mlmpzzA">
+                                   <img src="product/thumnailaudio.png" class="img-responsive"/>
+                             </a>
                         </div>
                         <div class="col-lg-4
                              col-md-4
