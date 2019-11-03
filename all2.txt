@@ -26,7 +26,10 @@
                         <div class="col-lg-4
                              col-md-4
                              col-sm-4
-                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
+                             col-xs-6 productbox">
+                             <a href="https://nguyentam2206.github.io/ung-dung" target="_blank">
+                                   <img src="product/a.gif" class="img-responsive"/>
+                              </a>
                         </div>
                         <div class="col-lg-4
                              col-md-4
