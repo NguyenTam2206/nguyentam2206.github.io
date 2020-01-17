@@ -23,16 +23,22 @@
                                                                       <img src="product/a.gif" class="img-responsive"/>
                                                                  </a>
                                         </div>
-                                        <div class="col-lg-4
-                                             col-md-4
-                                             col-sm-4
-                                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
-                                        </div>
-                                        <div class="col-lg-4
-                                             col-md-4
-                                             col-sm-4
-                                             col-xs-6 productbox"><img src="product/new.png" class="img-responsive"/>
-                                        </div>
+                                       <div class="col-lg-4
+                                                  col-md-4
+                                                  col-sm-4
+                                                  col-xs-6 productbox">
+                                                  <a href="https://nguyentam-phone-store.netlify.com" target="_blank">
+                                                            <img src="product/phonestore.png" class="img-responsive"/>
+                                                       </a>
+                                             </div>
+                                             <div class="col-lg-4
+                                                  col-md-4
+                                                  col-sm-4
+                                                  col-xs-6 productbox">
+                                                  <a href="https://nguyentam-resort.netlify.com" target="_blank">
+                                                            <img src="product/resort.png" class="img-responsive"/>
+                                                       </a>
+                                             </div>
                                         <div class="col-lg-4
                                              col-md-4
                                              col-sm-4
